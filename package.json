@@ -38,6 +38,8 @@
   "devDependencies": {
     "@ant-design/icons": "^4.3.0",
     "antd": "^4.8.6",
+    "axios": "^0.21.0",
+    "marked": "^1.2.5",
     "react-router-dom": "^5.2.0"
   }
 }
