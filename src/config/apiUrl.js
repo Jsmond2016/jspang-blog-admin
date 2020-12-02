@@ -12,7 +12,7 @@
  */
 
 
-let ipUrl = 'http://127.0.0.1:7001/admin/'
+let ipUrl = 'http://localhost:7001/admin/'
 
 let servicePath = {
   getTypeInfo: ipUrl + 'getTypeInfo',  //  获得文章类别信息

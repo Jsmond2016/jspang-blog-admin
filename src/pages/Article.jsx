@@ -159,7 +159,7 @@ function AddArticle(props) {
               <Select defaultValue={selectedType} size="large" onChange={setSelectType}>
                 {
                   Array.isArray(typeInfo) && typeInfo.map((item, index) => {
-                    return (<Option key={index} value={item.Id}>{item.typeName}</Option>)
+                    return (<Option key={index} value={item.Id}>{item.type_name}</Option>)
                   })
                 }
               </Select>
