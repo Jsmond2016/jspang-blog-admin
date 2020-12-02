@@ -5,16 +5,16 @@
  * @Copyright: Copyright (c) 2020, Jsmond2016
  */
 
- 
+
 import React from 'react';
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Login from './Login'
 import Index from './Index'
-function Main(){
+function Main() {
     return (
-        <Router>      
+        <Router>
             <Route path="/" exact component={Login} />
-            <Route path="/index/" exact component={Index} />
+            <Route path="/index/" component={Index} />
         </Router>
     )
 }
