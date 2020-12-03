@@ -8,3 +8,15 @@
 - React-Hooks
 - Axios
 - AntDesign
+
+优秀博客推荐
+
+- [github/LiuQ-Q](https://github.com/LiuQ-Q/nuxt-typescript-blog)
+- [github/szy_blog_react](https://github.com/zhanyis/szy_blog_react)
+- [github/youngster-yj](ttps://github.com/youngster-yj) , [ 博客地址](http://www.jsfan.net/)
+
+
+学习资料推荐：
+
+- [Koa2+MongoDB+JWT实战--Restful API最佳实践](https://blog.csdn.net/mrweb/article/details/106709450)
+- [koa2+mysql实现RESTful API](https://blog.csdn.net/qq_30604453/article/details/84791069)
