@@ -9,6 +9,15 @@
 - Axios
 - AntDesign
 
+功能：
+
+-文章管理：
+  - 新增/编辑文章管理
+  - 文章列表：查询/修改/删除/批量删除
+- 分类管理
+- 评论管理
+- 用户管理
+
 优秀博客推荐
 
 - [github/LiuQ-Q](https://github.com/LiuQ-Q/nuxt-typescript-blog)
