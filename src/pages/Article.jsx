@@ -36,7 +36,7 @@ function Article(props) {
   });
 
   const changeContent = (e) => {
-    setArticleContent(e.target.value)
+    setArticleContent(e.target.value.toString())
     let html = marked(e.target.value)
     setMarkdownContent(html)
   }
@@ -115,7 +115,6 @@ function Article(props) {
 
 
     if (articleId === 0) {
-      console.log('articleId=:' + articleId)
       dataProps.view_count = Math.ceil(Math.random() * 100) + 1000
       axios({
         method: 'post',
@@ -135,7 +134,7 @@ function Article(props) {
       )
     } else {
 
-      dataProps.id = articleId
+      dataProps.id = +articleId
       axios({
         method: 'post',
         url: servicePath.updateArticle,
