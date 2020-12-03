@@ -5,7 +5,7 @@ import { Row, Col, Input, Select, Button, DatePicker, message } from 'antd'
 import axios from 'axios'
 import servicePath from '../config/apiUrl'
 import { withRouter } from 'react-router-dom'
-
+import moment from 'moment'
 
 const { Option } = Select;
 const { TextArea } = Input
@@ -179,6 +179,7 @@ function Article(props) {
               <Input
                 placeholder="博客标题"
                 size="large"
+                value={articleTitle}
                 onChange={(e) => setArticleTitle(e.target.value)}
               />
             </Col>
@@ -242,14 +243,7 @@ function Article(props) {
                   onChange={(date, dateString) => setShowDate(dateString)}
                   placeholder="发布日期"
                   size="large"
-                />
-              </div>
-            </Col>
-            <Col span={12}>
-              <div className="date-select">
-                <DatePicker
-                  placeholder="修改日期"
-                  size="large"
+                  value={moment(showDate)}
                 />
               </div>
             </Col>
