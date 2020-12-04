@@ -87,7 +87,7 @@ function ArticleList(props) {
   }, [])
 
   return (
-    <Table bordered columns={columns} dataSource={list}/>
+    <Table bordered columns={columns} dataSource={list} rowKey="id" />
   )
 
 }
