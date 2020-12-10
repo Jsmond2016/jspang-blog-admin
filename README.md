@@ -20,6 +20,7 @@
 
 优秀博客推荐
 
+- [CQBoyBrand/Koa2-nuxt-MySQL](https://github.com/CQBoyBrand/Koa2-nuxt-MySQL)
 - [github/LiuQ-Q](https://github.com/LiuQ-Q/nuxt-typescript-blog)
 - [github/szy_blog_react](https://github.com/zhanyis/szy_blog_react)
 - [github/youngster-yj](ttps://github.com/youngster-yj) , [ 博客地址](http://www.jsfan.net/)
